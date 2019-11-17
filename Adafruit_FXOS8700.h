@@ -18,6 +18,7 @@
  *
  */
 /** \file Adafruit_FXOS8700.h */
+namespace FX{
 #ifndef __FXOS8700_H__
 #define __FXOS8700_H__
 
@@ -132,5 +133,5 @@ class Adafruit_FXOS8700 : public Adafruit_Sensor
     int32_t              _accelSensorID;
     int32_t              _magSensorID;
 };
-
+}
 #endif

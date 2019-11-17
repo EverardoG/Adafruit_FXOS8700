@@ -31,6 +31,7 @@
  * MIT license, all text here must be included in any redistribution.
  *
  */
+
 #if ARDUINO >= 100
  #include "Arduino.h"
 #else
@@ -41,6 +42,7 @@
 #include <limits.h>
 
 #include "Adafruit_FXOS8700.h"
+using namespace FX;
 
 /** Macro for mg per LSB at +/- 2g sensitivity (1 LSB = 0.000244mg) */
 #define ACCEL_MG_LSB_2G (0.000244F)
